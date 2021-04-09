@@ -1,0 +1,12 @@
+------- Part 4: Audio -------------------  
+
+-- Here is an example with an audio file
+-- put file:///Users/crichardson/Documents/git/Chris-Richardson_REPO/SnowflakeFeatureDemo-FileSupport/Data_Files/audio/* @images_stage/audio/ AUTO_COMPRESS=false;
+
+select 
+  distinct metadata$filename file_name
+  , concat('<audio controls src="', get_presigned_url(@images_stage, file_name) ,'"/audio>') audio
+  , concat('<a href="', get_presigned_url(@images_stage, file_name) ,'"> download </a>') link
+from @images_stage/audio;
+
+-- In zepl we could transcribe this file, gather sentiment, etc 
