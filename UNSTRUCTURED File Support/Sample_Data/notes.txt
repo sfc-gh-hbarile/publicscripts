@@ -1,1 +1,0 @@
-Use this directory to store any small datasets(<10MB) for your demos. Larger files should be stored in googleDrive

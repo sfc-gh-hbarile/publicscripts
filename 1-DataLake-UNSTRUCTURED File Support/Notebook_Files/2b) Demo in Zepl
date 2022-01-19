@@ -1,0 +1,58 @@
+-- Here is an example notebooks owned by chris.richardson@snowflake.com
+https://app.zepl.com/OR9QI394D/notebooks/e498acbca31b447fad8748bfb30f33e7
+
+-- Code you will use in Zepl 
+
+-- Part 1
+%datasource.demo49a
+
+use schema demo_db.public;
+use warehouse demo_wh;
+
+select 
+  distinct metadata$filename file_name,
+  concat('<img width="125” height=“80" src="', get_presigned_url(@images_stage, file_name) ,'"></img>') image
+  , concat('<a href="', get_presigned_url(@images_stage, file_name) ,'"> download </a>') link
+  , get_presigned_url(@images_stage, file_name) signed_url
+from @images_stage;
+
+-- Part 2
+%datasource.demo49a
+
+use schema demo_db.public;
+
+with 
+get_files as (
+select 
+   distinct(metadata$filename) file_name from @images_stage),
+external_function as (
+select 
+  file_name
+  , get_presigned_url(@images_stage, file_name) signed_url
+  , sf_label_image(get_presigned_url(@images_stage, file_name)) payload from get_files)
+select 
+  ef.file_name
+  , concat('<img width="125” height=“80" src="', get_presigned_url(@images_stage, ef.file_name) ,'"></img>') image
+  , listagg(lf.value:Name::string,' | ') aws_rekognition_labels 
+  , ef.payload aws_rekognition_payload
+  , ef.signed_url
+from 
+  external_function ef
+  , lateral flatten(input=>payload:response.labels, outer => TRUE ) lf
+group by 1,2,4,5;
+
+-- Part 3
+
+%datasource.demo49a
+
+use schema demo_db.public;
+
+select * from sf_image_files_finished_vw;
+
+-- Part 4
+
+select 
+  distinct metadata$filename file_name
+  , concat('<audio controls src="', get_presigned_url(@images_stage, file_name) ,'"/audio>') audio
+  , concat('<a href="', get_presigned_url(@images_stage, file_name) ,'"> download </a>') link
+from @images_stage/audio;
