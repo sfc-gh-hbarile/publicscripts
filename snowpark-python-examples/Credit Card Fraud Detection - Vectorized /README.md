@@ -1,22 +1,30 @@
 # Credit Card Fraud Detection Demo
-This is a demo is based on the Machine Learning for Credit Card Fraud detection - Practical handbook, https://fraud-detection-handbook.github.io/fraud-detection-handbook/
+
+## 1. Overview
+This example is based on the Machine Learning for Credit Card Fraud detection - Practical handbook, https://fraud-detection-handbook.github.io/fraud-detection-handbook/
 
 It shows how to do Feature Enginerring with Snowpark, preparing data for training a Machin Leraning model and finaly how to deploy and use a trained model in Snowflake using Python UDF.
 
-### PRE-REQUISITE
 
-1. Make sure you have a Snowflake account that can use Snowpark for Python and Python UDFs
-2. Install Snowpark for Python according to the documentation
-3. The demo also use the following Python libraries that is not part of a standard Python installation, so you need to make sure they are avalible:
+## 2. Prerequisite
+
+* Snowflake account
+* Snowpark for Python
+* The examples also use the following Python libraries:
    ```
-   json
-   sklearn
+   scikit-learn
    pandas
    numpy
+   matplotlib
    ```
-3. Install Jupyter or JupyterLab
+* Jupyter or JupyterLab
 
-### SETUP
+## 3. What you'll learn
+* How to use Snowpark for Python for doing Feature Engineering
+* How you can create a custom sampling functioand with Snowpark for Python
+* Training a Machine Learning model outside of Snowflake nd to deploy it as a Python UDF
+
+## 4. Usage/Steps
 
 1. Open terminal and clone this repo or use GitHub Desktop, since it is part of the snowflakecorp organisation you need to set up the authentification before cloning: 
 
@@ -63,12 +71,3 @@ AS
  SELECT DISTINCT TERMINAL_ID FROM CUSTOMER_TRANSACTIONS_FRAUD
   ORDER BY TERMINAL_ID;
 ```
-
-
-
-### DEMO
-The demo talk track is the noteboks.
-
-Start with 01 - Snowpark Python - Feature Engineering
-
-
