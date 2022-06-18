@@ -1,8 +1,0 @@
-Creating summariser <summary>
-Created the tree successfully using 01_JMX/TPC_XS0101_01.jmx
-Starting standalone test @ Fri Jun 17 21:40:19 EDT 2022 (1655516419891)
-Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4446
-summary =      4 in 00:00:33 =    0.1/s Avg:  5263 Min:   135 Max: 20533 Err:     4 (100.00%)
-Generate Summary Results =      4 in 00:00:33 =    0.1/s Avg:  5263 Min:   135 Max: 20533 Err:     4 (100.00%)
-Tidying up ...    @ Fri Jun 17 21:40:53 EDT 2022 (1655516453374)
-... end of run

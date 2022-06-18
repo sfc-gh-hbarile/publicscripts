@@ -1,2 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1655517300412,117,Use Schema,200,OK,warmUpThread Group 1-1,text,true,,40,0,1,1,null,116,0,0

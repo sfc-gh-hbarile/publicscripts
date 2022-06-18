@@ -1,1 +1,0 @@
-cr89670.east-us-2.azure.snowflakecomputing.com
