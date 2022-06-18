@@ -1,0 +1,322 @@
+2022-06-15 23:07:13,454 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-06-15 23:07:13,473 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.5/libexec/bin/user.properties
+2022-06-15 23:07:13,474 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.5/libexec/bin/system.properties
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: Version 5.5
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: java.version=18.0.1.1
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: os.name=Mac OS X
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: os.arch=x86_64
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: os.version=12.4
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: java.awt.headless=null
+2022-06-15 23:07:13,480 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-06-15 23:07:13,481 INFO o.a.j.JMeter: Available Processors =16
+2022-06-15 23:07:13,488 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-06-15 23:07:13,489 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-06-15 23:07:13,489 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.5/libexec
+2022-06-15 23:07:13,489 INFO o.a.j.JMeter: user.dir  =/Users/hbarile/JMETER_LOADTEST_TEMPLATE/00_SETUP
+2022-06-15 23:07:13,489 INFO o.a.j.JMeter: PWD       =/Users/hbarile/JMETER_LOADTEST_TEMPLATE/00_SETUP
+2022-06-15 23:07:13,490 INFO o.a.j.JMeter: IP: 10.0.1.33 Name: C02CD028MD6V FullName: 10.0.1.33
+2022-06-15 23:07:13,498 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-06-15 23:07:13,840 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
+2022-06-15 23:07:15,259 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-77e848496784cc1800a3f548b7b92e20-gui
+2022-06-15 23:07:16,255 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.7, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2022-06-15 23:07:29,845 INFO o.a.j.s.FileServer: Default base='/Users/hbarile/JMETER_LOADTEST_TEMPLATE/00_SETUP'
+2022-06-15 23:07:29,847 INFO o.a.j.g.a.Load: Loading file: /Users/hbarile/Desktop/TPC_LA0101_01_BNY.jmx
+2022-06-15 23:07:29,848 INFO o.a.j.s.FileServer: Set new base='/Users/hbarile/Desktop'
+2022-06-15 23:07:29,988 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-06-15 23:07:29,994 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-06-15 23:07:29,995 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-06-15 23:07:29,996 INFO o.a.j.s.SaveService: Loading file: /Users/hbarile/Desktop/TPC_LA0101_01_BNY.jmx
+2022-06-15 23:07:30,268 INFO o.a.j.s.FileServer: Set new base='/Users/hbarile/Desktop'
+2022-06-15 23:07:42,688 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-15 23:07:42,688 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-15 23:07:42,688 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-15 23:07:42,689 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-06-15 23:07:42,689 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-06-15 23:07:42,736 INFO o.a.j.t.TestPlan: added /usr/local/opt/jmeter/libexec/lib to classpath
+2022-06-15 23:07:42,794 INFO o.a.j.r.ResultCollector: Folder at /Users/hbarile/Desktop/jmeter/Jmeter_Results was created
+2022-06-15 23:07:42,795 INFO o.a.j.r.ResultCollector: Folder at /Users/hbarile/Desktop/jmeter/Jmeter_Graph was created
+2022-06-15 23:07:42,796 INFO o.a.j.r.ResultCollector: Folder at /Users/hbarile/Desktop/jmeter/Jmeter_AggReport was created
+2022-06-15 23:07:42,797 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-06-15 23:07:42,804 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-06-15 23:07:42,804 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : warmUpThread Group 
+2022-06-15 23:07:42,804 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group warmUpThread Group.
+2022-06-15 23:07:42,804 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:07:42,804 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:07:42,806 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:07:42,806 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-06-15 23:07:42,806 INFO o.a.j.t.JMeterThread: Thread started: warmUpThread Group 1-1
+2022-06-15 23:07:42,808 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-06-15 23:07:42,808 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-06-15 23:07:42,808 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-06-15 23:07:42,808 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-06-15 23:08:02,986 INFO o.a.j.r.Summariser: Generate Summary Results +      1 in 00:00:20 =    0.0/s Avg: 20174 Min: 20174 Max: 20174 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2022-06-15 23:08:03,726 INFO o.a.j.t.JMeterThread: Thread is done: warmUpThread Group 1-1
+2022-06-15 23:08:03,726 INFO o.a.j.t.JMeterThread: Thread finished: warmUpThread Group 1-1
+2022-06-15 23:08:03,726 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-06-15 23:08:03,762 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Query Group
+2022-06-15 23:08:03,762 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Query Group.
+2022-06-15 23:08:03,763 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2022-06-15 23:08:03,763 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=true
+2022-06-15 23:08:03,763 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:08:03,763 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Query Group to finish before starting next group
+2022-06-15 23:08:03,764 INFO o.a.j.t.JMeterThread: Thread started: Query Group 1-1
+2022-06-15 23:09:09,191 INFO o.a.j.t.JMeterThread: Shutdown Test detected by thread: Query Group 1-1
+2022-06-15 23:09:09,191 INFO o.a.j.t.JMeterThread: Thread finished: Query Group 1-1
+2022-06-15 23:09:09,192 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2022-06-15 23:09:09,192 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown thread groups
+2022-06-15 23:09:09,192 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown ThreadGroup: 1 : tearDown Thread Group
+2022-06-15 23:09:09,192 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group.
+2022-06-15 23:09:09,192 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:09:09,192 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:09:09,192 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:09:09,192 INFO o.a.j.t.JMeterThread: Thread started: tearDown Thread Group 1-1
+2022-06-15 23:09:09,193 INFO o.a.j.t.JMeterThread: Thread is done: tearDown Thread Group 1-1
+2022-06-15 23:09:09,193 INFO o.a.j.t.JMeterThread: Thread finished: tearDown Thread Group 1-1
+2022-06-15 23:09:09,193 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-15 23:09:22,479 INFO o.a.j.r.Summariser: Generate Summary Results +      3 in 00:01:19 =    0.0/s Avg: 22038 Min:   105 Max: 65376 Err:     1 (33.33%) Active: 0 Started: 1 Finished: 1
+2022-06-15 23:09:22,480 INFO o.a.j.r.Summariser: Generate Summary Results =      4 in 00:01:40 =    0.0/s Avg: 21572 Min:   105 Max: 65376 Err:     1 (25.00%)
+2022-06-15 23:09:22,480 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-06-15 23:12:15,794 INFO o.a.j.g.a.Load: Loading file: /Users/hbarile/JMETER_LOADTEST_TEMPLATE/01_JMX/TPC_LA0101_01.jmx
+2022-06-15 23:12:15,794 INFO o.a.j.s.FileServer: Set new base='/Users/hbarile/JMETER_LOADTEST_TEMPLATE/01_JMX'
+2022-06-15 23:12:15,794 INFO o.a.j.s.SaveService: Loading file: /Users/hbarile/JMETER_LOADTEST_TEMPLATE/01_JMX/TPC_LA0101_01.jmx
+2022-06-15 23:12:15,844 INFO o.a.j.s.FileServer: Set new base='/Users/hbarile/JMETER_LOADTEST_TEMPLATE/01_JMX'
+2022-06-15 23:15:22,364 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-15 23:15:22,364 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-15 23:15:22,366 INFO o.a.j.t.TestPlan: added /usr/local/opt/jmeter/libexec/lib/snowflake-jdbc-3.13.19.jar to classpath
+2022-06-15 23:15:22,368 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-06-15 23:15:22,374 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-06-15 23:15:22,374 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : warmUpThread Group 
+2022-06-15 23:15:22,375 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group warmUpThread Group.
+2022-06-15 23:15:22,375 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:15:22,375 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:15:22,375 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:15:22,375 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-06-15 23:15:22,375 INFO o.a.j.t.JMeterThread: Thread started: warmUpThread Group 1-1
+2022-06-15 23:15:22,820 INFO o.a.j.t.JMeterThread: Thread is done: warmUpThread Group 1-1
+2022-06-15 23:15:22,821 INFO o.a.j.t.JMeterThread: Thread finished: warmUpThread Group 1-1
+2022-06-15 23:15:22,821 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-06-15 23:15:22,865 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Query Group
+2022-06-15 23:15:22,865 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Query Group.
+2022-06-15 23:15:22,865 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2022-06-15 23:15:22,866 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=true
+2022-06-15 23:15:22,866 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:15:22,866 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Query Group to finish before starting next group
+2022-06-15 23:15:22,867 INFO o.a.j.t.JMeterThread: Thread started: Query Group 1-1
+2022-06-15 23:15:23,020 INFO o.a.j.t.JMeterThread: Shutdown Test detected by thread: Query Group 1-1
+2022-06-15 23:15:23,021 INFO o.a.j.t.JMeterThread: Thread finished: Query Group 1-1
+2022-06-15 23:15:23,021 INFO o.a.j.t.JMeterThread: Stopping: Query Group 1-1
+2022-06-15 23:15:23,021 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2022-06-15 23:15:23,021 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown thread groups
+2022-06-15 23:15:23,021 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown ThreadGroup: 1 : tearDown Thread Group
+2022-06-15 23:15:23,022 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group.
+2022-06-15 23:15:23,022 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:15:23,022 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:15:23,022 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:15:23,023 INFO o.a.j.t.JMeterThread: Thread started: tearDown Thread Group 1-1
+2022-06-15 23:15:23,023 INFO o.a.j.t.JMeterThread: Thread is done: tearDown Thread Group 1-1
+2022-06-15 23:15:23,023 INFO o.a.j.t.JMeterThread: Thread finished: tearDown Thread Group 1-1
+2022-06-15 23:15:23,023 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-15 23:15:23,029 INFO o.a.j.r.Summariser: Generate Summary Results =      4 in 00:00:01 =    6.1/s Avg:   127 Min:    49 Max:   345 Err:     4 (100.00%)
+2022-06-15 23:15:23,029 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-06-15 23:15:27,564 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-15 23:15:27,565 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-15 23:15:27,566 INFO o.a.j.t.TestPlan: added /usr/local/opt/jmeter/libexec/lib/snowflake-jdbc-3.13.19.jar to classpath
+2022-06-15 23:15:27,568 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-06-15 23:15:27,574 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-06-15 23:15:27,574 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : warmUpThread Group 
+2022-06-15 23:15:27,575 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group warmUpThread Group.
+2022-06-15 23:15:27,575 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:15:27,575 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:15:27,575 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:15:27,575 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-06-15 23:15:27,575 INFO o.a.j.t.JMeterThread: Thread started: warmUpThread Group 1-1
+2022-06-15 23:15:27,720 INFO o.a.j.t.JMeterThread: Thread is done: warmUpThread Group 1-1
+2022-06-15 23:15:27,721 INFO o.a.j.t.JMeterThread: Thread finished: warmUpThread Group 1-1
+2022-06-15 23:15:27,721 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-06-15 23:15:27,760 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Query Group
+2022-06-15 23:15:27,760 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Query Group.
+2022-06-15 23:15:27,760 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2022-06-15 23:15:27,760 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=true
+2022-06-15 23:15:27,760 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:15:27,760 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Query Group to finish before starting next group
+2022-06-15 23:15:27,761 INFO o.a.j.t.JMeterThread: Thread started: Query Group 1-1
+2022-06-15 23:15:27,873 INFO o.a.j.t.JMeterThread: Shutdown Test detected by thread: Query Group 1-1
+2022-06-15 23:15:27,873 INFO o.a.j.t.JMeterThread: Thread finished: Query Group 1-1
+2022-06-15 23:15:27,873 INFO o.a.j.t.JMeterThread: Stopping: Query Group 1-1
+2022-06-15 23:15:27,873 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2022-06-15 23:15:27,873 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown thread groups
+2022-06-15 23:15:27,874 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown ThreadGroup: 1 : tearDown Thread Group
+2022-06-15 23:15:27,874 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group.
+2022-06-15 23:15:27,874 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:15:27,874 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:15:27,874 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:15:27,874 INFO o.a.j.t.JMeterThread: Thread started: tearDown Thread Group 1-1
+2022-06-15 23:15:27,875 INFO o.a.j.t.JMeterThread: Thread is done: tearDown Thread Group 1-1
+2022-06-15 23:15:27,875 INFO o.a.j.t.JMeterThread: Thread finished: tearDown Thread Group 1-1
+2022-06-15 23:15:27,875 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-15 23:15:27,876 INFO o.a.j.r.Summariser: Generate Summary Results =      4 in 00:00:00 =   13.0/s Avg:    45 Min:    38 Max:    50 Err:     4 (100.00%)
+2022-06-15 23:15:27,876 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-06-15 23:17:50,436 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-15 23:17:50,437 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-15 23:17:50,459 INFO o.a.j.t.TestPlan: added /usr/local/opt/jmeter/libexec/lib to classpath
+2022-06-15 23:17:50,460 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-06-15 23:17:50,464 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-06-15 23:17:50,464 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : warmUpThread Group 
+2022-06-15 23:17:50,464 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group warmUpThread Group.
+2022-06-15 23:17:50,464 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:17:50,464 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:17:50,464 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:17:50,464 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-06-15 23:17:50,465 INFO o.a.j.t.JMeterThread: Thread started: warmUpThread Group 1-1
+2022-06-15 23:17:50,624 INFO o.a.j.t.JMeterThread: Thread is done: warmUpThread Group 1-1
+2022-06-15 23:17:50,624 INFO o.a.j.t.JMeterThread: Thread finished: warmUpThread Group 1-1
+2022-06-15 23:17:50,625 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-06-15 23:17:50,664 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Query Group
+2022-06-15 23:17:50,664 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Query Group.
+2022-06-15 23:17:50,664 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2022-06-15 23:17:50,664 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=true
+2022-06-15 23:17:50,664 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:17:50,664 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Query Group to finish before starting next group
+2022-06-15 23:17:50,665 INFO o.a.j.t.JMeterThread: Thread started: Query Group 1-1
+2022-06-15 23:17:50,774 INFO o.a.j.t.JMeterThread: Shutdown Test detected by thread: Query Group 1-1
+2022-06-15 23:17:50,774 INFO o.a.j.t.JMeterThread: Thread finished: Query Group 1-1
+2022-06-15 23:17:50,774 INFO o.a.j.t.JMeterThread: Stopping: Query Group 1-1
+2022-06-15 23:17:50,774 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2022-06-15 23:17:50,774 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown thread groups
+2022-06-15 23:17:50,774 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown ThreadGroup: 1 : tearDown Thread Group
+2022-06-15 23:17:50,774 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group.
+2022-06-15 23:17:50,774 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:17:50,775 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:17:50,775 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:17:50,775 INFO o.a.j.t.JMeterThread: Thread started: tearDown Thread Group 1-1
+2022-06-15 23:17:50,775 INFO o.a.j.t.JMeterThread: Thread is done: tearDown Thread Group 1-1
+2022-06-15 23:17:50,775 INFO o.a.j.t.JMeterThread: Thread finished: tearDown Thread Group 1-1
+2022-06-15 23:17:50,775 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-15 23:17:50,776 INFO o.a.j.r.Summariser: Generate Summary Results =      4 in 00:00:00 =   12.7/s Avg:    52 Min:    50 Max:    59 Err:     4 (100.00%)
+2022-06-15 23:17:50,776 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-06-15 23:17:57,710 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-15 23:17:57,710 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-15 23:17:57,734 INFO o.a.j.t.TestPlan: added /usr/local/opt/jmeter/libexec/lib to classpath
+2022-06-15 23:17:57,735 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-06-15 23:17:57,739 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-06-15 23:17:57,739 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : warmUpThread Group 
+2022-06-15 23:17:57,739 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group warmUpThread Group.
+2022-06-15 23:17:57,739 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:17:57,739 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:17:57,739 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:17:57,739 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-06-15 23:17:57,740 INFO o.a.j.t.JMeterThread: Thread started: warmUpThread Group 1-1
+2022-06-15 23:17:57,851 INFO o.a.j.t.JMeterThread: Thread is done: warmUpThread Group 1-1
+2022-06-15 23:17:57,851 INFO o.a.j.t.JMeterThread: Thread finished: warmUpThread Group 1-1
+2022-06-15 23:17:57,851 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-06-15 23:17:57,891 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Query Group
+2022-06-15 23:17:57,891 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Query Group.
+2022-06-15 23:17:57,891 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2022-06-15 23:17:57,891 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=true
+2022-06-15 23:17:57,891 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:17:57,891 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Query Group to finish before starting next group
+2022-06-15 23:17:57,892 INFO o.a.j.t.JMeterThread: Thread started: Query Group 1-1
+2022-06-15 23:17:57,937 INFO o.a.j.t.JMeterThread: Shutdown Test detected by thread: Query Group 1-1
+2022-06-15 23:17:57,937 INFO o.a.j.t.JMeterThread: Thread finished: Query Group 1-1
+2022-06-15 23:17:57,938 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2022-06-15 23:17:57,937 INFO o.a.j.t.JMeterThread: Stopping: Query Group 1-1
+2022-06-15 23:17:57,938 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown thread groups
+2022-06-15 23:17:57,938 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown ThreadGroup: 1 : tearDown Thread Group
+2022-06-15 23:17:57,938 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group.
+2022-06-15 23:17:57,938 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:17:57,938 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:17:57,938 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:17:57,938 INFO o.a.j.t.JMeterThread: Thread started: tearDown Thread Group 1-1
+2022-06-15 23:17:57,939 INFO o.a.j.t.JMeterThread: Thread is done: tearDown Thread Group 1-1
+2022-06-15 23:17:57,939 INFO o.a.j.t.JMeterThread: Thread finished: tearDown Thread Group 1-1
+2022-06-15 23:17:57,939 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-15 23:17:57,940 INFO o.a.j.r.Summariser: Generate Summary Results =      4 in 00:00:00 =   19.6/s Avg:    36 Min:    35 Max:    38 Err:     4 (100.00%)
+2022-06-15 23:17:57,940 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-06-15 23:18:34,710 INFO o.a.j.g.a.Load: Loading file: /Users/hbarile/Desktop/TPC_LA0101_01_BNY.jmx
+2022-06-15 23:18:34,710 INFO o.a.j.s.FileServer: Set new base='/Users/hbarile/Desktop'
+2022-06-15 23:18:34,710 INFO o.a.j.s.SaveService: Loading file: /Users/hbarile/Desktop/TPC_LA0101_01_BNY.jmx
+2022-06-15 23:18:34,752 INFO o.a.j.s.FileServer: Set new base='/Users/hbarile/Desktop'
+2022-06-15 23:19:20,742 INFO o.a.j.g.a.Load: Loading file: /Users/hbarile/JMETER_LOADTEST_TEMPLATE/01_JMX/TPC_LA0101_01.jmx
+2022-06-15 23:19:20,742 INFO o.a.j.s.FileServer: Set new base='/Users/hbarile/JMETER_LOADTEST_TEMPLATE/01_JMX'
+2022-06-15 23:19:20,742 INFO o.a.j.s.SaveService: Loading file: /Users/hbarile/JMETER_LOADTEST_TEMPLATE/01_JMX/TPC_LA0101_01.jmx
+2022-06-15 23:19:20,777 INFO o.a.j.s.FileServer: Set new base='/Users/hbarile/JMETER_LOADTEST_TEMPLATE/01_JMX'
+2022-06-15 23:19:54,910 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-15 23:19:54,911 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-15 23:19:54,932 INFO o.a.j.t.TestPlan: added /usr/local/opt/jmeter/libexec/lib to classpath
+2022-06-15 23:19:54,934 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-06-15 23:19:54,938 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-06-15 23:19:54,938 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : warmUpThread Group 
+2022-06-15 23:19:54,938 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group warmUpThread Group.
+2022-06-15 23:19:54,938 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:19:54,938 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:19:54,938 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:19:54,939 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-06-15 23:19:54,939 INFO o.a.j.t.JMeterThread: Thread started: warmUpThread Group 1-1
+2022-06-15 23:20:21,750 INFO o.a.j.t.JMeterThread: Thread is done: warmUpThread Group 1-1
+2022-06-15 23:20:21,751 INFO o.a.j.t.JMeterThread: Thread finished: warmUpThread Group 1-1
+2022-06-15 23:20:21,751 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-06-15 23:20:21,794 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Query Group
+2022-06-15 23:20:21,795 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Query Group.
+2022-06-15 23:20:21,795 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2022-06-15 23:20:21,795 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=true
+2022-06-15 23:20:21,795 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:20:21,795 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Query Group to finish before starting next group
+2022-06-15 23:20:21,796 INFO o.a.j.t.JMeterThread: Thread started: Query Group 1-1
+2022-06-15 23:20:34,179 INFO o.a.j.r.Summariser: Generate Summary Results +      4 in 00:00:39 =    0.1/s Avg:  9789 Min:   124 Max: 26053 Err:     1 (25.00%) Active: 1 Started: 1 Finished: 0
+2022-06-15 23:20:34,180 INFO o.a.j.t.JMeterThread: Shutdown Test detected by thread: Query Group 1-1
+2022-06-15 23:20:34,180 INFO o.a.j.t.JMeterThread: Thread finished: Query Group 1-1
+2022-06-15 23:20:34,180 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2022-06-15 23:20:34,180 INFO o.a.j.t.JMeterThread: Stopping: Query Group 1-1
+2022-06-15 23:20:34,180 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown thread groups
+2022-06-15 23:20:34,180 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown ThreadGroup: 1 : tearDown Thread Group
+2022-06-15 23:20:34,180 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group.
+2022-06-15 23:20:34,180 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:20:34,180 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:20:34,181 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:20:34,181 INFO o.a.j.t.JMeterThread: Thread started: tearDown Thread Group 1-1
+2022-06-15 23:20:34,181 INFO o.a.j.t.JMeterThread: Thread is done: tearDown Thread Group 1-1
+2022-06-15 23:20:34,181 INFO o.a.j.t.JMeterThread: Thread finished: tearDown Thread Group 1-1
+2022-06-15 23:20:34,181 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-15 23:20:44,891 INFO o.a.j.r.Summariser: Generate Summary Results =      4 in 00:00:50 =    0.1/s Avg:  9789 Min:   124 Max: 26053 Err:     1 (25.00%)
+2022-06-15 23:20:44,891 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-06-15 23:27:20,966 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-15 23:27:20,967 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-15 23:27:20,990 INFO o.a.j.t.TestPlan: added /usr/local/opt/jmeter/libexec/lib to classpath
+2022-06-15 23:27:20,991 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-06-15 23:27:20,995 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2022-06-15 23:27:20,995 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : warmUpThread Group 
+2022-06-15 23:27:20,995 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group warmUpThread Group.
+2022-06-15 23:27:20,995 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:27:20,995 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:27:20,996 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:27:20,996 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2022-06-15 23:27:20,996 INFO o.a.j.t.JMeterThread: Thread started: warmUpThread Group 1-1
+2022-06-15 23:27:38,395 INFO o.a.j.t.JMeterThread: Thread is done: warmUpThread Group 1-1
+2022-06-15 23:27:38,396 INFO o.a.j.t.JMeterThread: Thread finished: warmUpThread Group 1-1
+2022-06-15 23:27:38,396 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2022-06-15 23:27:38,439 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Query Group
+2022-06-15 23:27:38,439 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Query Group.
+2022-06-15 23:27:38,439 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2022-06-15 23:27:38,439 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=true
+2022-06-15 23:27:38,439 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:27:38,439 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Query Group to finish before starting next group
+2022-06-15 23:27:38,440 INFO o.a.j.t.JMeterThread: Thread started: Query Group 1-1
+2022-06-15 23:27:43,730 INFO o.a.j.t.JMeterThread: Shutdown Test detected by thread: Query Group 1-1
+2022-06-15 23:27:43,731 INFO o.a.j.t.JMeterThread: Thread finished: Query Group 1-1
+2022-06-15 23:27:43,731 INFO o.a.j.t.JMeterThread: Stopping: Query Group 1-1
+2022-06-15 23:27:43,731 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2022-06-15 23:27:43,731 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown thread groups
+2022-06-15 23:27:43,731 INFO o.a.j.e.StandardJMeterEngine: Starting tearDown ThreadGroup: 1 : tearDown Thread Group
+2022-06-15 23:27:43,731 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group.
+2022-06-15 23:27:43,731 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-15 23:27:43,731 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-06-15 23:27:43,732 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-15 23:27:43,732 INFO o.a.j.t.JMeterThread: Thread started: tearDown Thread Group 1-1
+2022-06-15 23:27:43,732 INFO o.a.j.t.JMeterThread: Thread is done: tearDown Thread Group 1-1
+2022-06-15 23:27:43,732 INFO o.a.j.t.JMeterThread: Thread finished: tearDown Thread Group 1-1
+2022-06-15 23:27:43,732 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-15 23:27:54,191 INFO o.a.j.r.Summariser: Generate Summary Results =      4 in 00:00:33 =    0.1/s Avg:  5659 Min:   145 Max: 16926 Err:     1 (25.00%)
+2022-06-15 23:27:54,191 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

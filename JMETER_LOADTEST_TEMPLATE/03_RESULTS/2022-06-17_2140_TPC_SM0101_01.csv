@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1655516420549,19487,Create Warehouse,42501 3001,"net.snowflake.client.jdbc.SnowflakeSQLException: SQL access control error:
+Insufficient privileges to operate on account 'CR89670'",warmUpThread Group 1-1,text,false,,81,0,1,1,null,0,0,19237
+1655516440039,136,Alter Warehouse,02000 2003,"net.snowflake.client.jdbc.SnowflakeSQLException: SQL compilation error:
+Warehouse 'JMETER_WH_S' does not exist or not authorized.",warmUpThread Group 1-1,text,false,,80,0,1,1,null,0,0,0
+1655516440175,125,Use Schema,02000 2043,"net.snowflake.client.jdbc.SnowflakeSQLException: SQL compilation error:
+Object does not exist, or operation cannot be performed.",warmUpThread Group 1-1,text,false,,79,0,1,1,null,0,0,0
+1655516440336,129,Q68A,42S02 2003,"net.snowflake.client.jdbc.SnowflakeSQLException: SQL compilation error:
+Object 'STORE_SALES' does not exist or not authorized.",Query Group 1-1,text,false,,77,0,1,1,null,0,0,0
